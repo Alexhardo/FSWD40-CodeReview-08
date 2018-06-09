@@ -1,0 +1,19 @@
+.card {
+  border: 2px solid #7a1139;
+  padding: 5px;
+  margin: 20px;
+  display: inline-flex;
+  background-color: #DABCDA;
+
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.txt {
+  border: solid #7a1139;
+
+ 
+}

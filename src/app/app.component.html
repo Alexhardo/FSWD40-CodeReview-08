@@ -1,0 +1,17 @@
+<app-navbar>
+</app-navbar>
+<app-hero></app-hero>
+<div class="container">
+  <div class="card" *ngFor="let persons of persons">
+    <img src="{{persons.img}}" alt="Persons">
+    <div class="txt">
+      <h4>First Name: {{persons.name}}</h4>
+      <h4>Last Name: {{persons.surname}}</h4>
+      <p>Age: {{persons.age}}</p>
+      <p>Gender: {{persons.gender}}</p>
+      <p>Single: {{persons.single}}</p>
+      <p>Likes: {{persons.likes}}</p>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
